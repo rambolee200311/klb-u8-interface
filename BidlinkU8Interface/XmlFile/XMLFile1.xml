@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ufinterface roottag="voucher" billtype="gl" receiver="voucher" sender="u8" proc="add" codeexchanged="N\">
+  <voucher id="787878">
+    <voucher_head>
+      <voucher_type>记</voucher_type>
+      <fiscal_year>2015</fiscal_year>
+      <accounting_period>1</accounting_period>
+      <voucher_id>6455445</voucher_id>
+      <date>2015-01-06</date>
+      <enter>demo</enter>
+      <cashier>6455445</cashier>
+      <attachment_number>0</attachment_number>
+    </voucher_head>
+    <voucher_body>
+      <Entry>
+        <entry_id>1</entry_id>
+        <account_code>100202</account_code>
+        <abstract>222222</abstract>
+        <unit_price>0</unit_price>
+        <exchange_rate1>0</exchange_rate1>
+        <exchange_rate2>0</exchange_rate2>
+        <debit_quantity>0</debit_quantity>
+        <credit_quantity>0</credit_quantity>
+        <primary_debit_amount>0</primary_debit_amount>
+        <secondary_debit_amount>0</secondary_debit_amount>
+        <natural_debit_currency>1000</natural_debit_currency>
+        <primary_credit_amount>0</primary_credit_amount>
+        <secondary_credit_amount>0</secondary_credit_amount>
+        <natural_credit_currency>0</natural_credit_currency>
+      </Entry>
+      <Entry>
+        <entry_id>2</entry_id>
+        <account_code>122102</account_code>
+        <abstract>222222</abstract>
+        <unit_price>0</unit_price>
+        <exchange_rate1>0</exchange_rate1>
+        <exchange_rate2>0</exchange_rate2>
+        <debit_quantity>0</debit_quantity>
+        <credit_quantity>0</credit_quantity>
+        <primary_debit_amount>0</primary_debit_amount>
+        <secondary_debit_amount>0</secondary_debit_amount>
+        <natural_debit_currency>0</natural_debit_currency>
+        <primary_credit_amount>0</primary_credit_amount>
+        <secondary_credit_amount>0</secondary_credit_amount>
+        <natural_credit_currency>1000</natural_credit_currency>
+      </Entry>
+    </voucher_body>
+  </voucher>
+</ufinterface>

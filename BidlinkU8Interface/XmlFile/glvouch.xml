@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ufinterface roottag="voucher" billtype="gl" receiver="996" sender="u8" proc="add" codeexchanged="N">
+  <voucher id="766767">
+		<voucher_head>
+			<company></company>
+			<voucher_type></voucher_type>
+			<fiscal_year></fiscal_year>
+			<accounting_period></accounting_period>
+			<voucher_id></voucher_id>
+			<attachment_number></attachment_number>
+			<date></date>
+			<auditdate></auditdate>
+			<enter></enter>
+			<cashier></cashier>
+			<signature></signature>
+			<checker></checker>
+			<posting_date></posting_date>
+			<posting_person></posting_person>
+			<voucher_making_system></voucher_making_system>
+			<memo1></memo1>
+			<memo2></memo2>
+			<reserve1></reserve1>
+			<reserve2></reserve2>
+			<revokeflag></revokeflag>
+		</voucher_head>
+		<voucher_body>
+			<entry>
+				<entry_id></entry_id>
+				<account_code></account_code>
+				<abstract></abstract>
+				<settlement></settlement>
+				<document_id></document_id>
+				<document_date></document_date>
+				<currency></currency>
+				<unit_price></unit_price>
+				<exchange_rate1></exchange_rate1>
+				<exchange_rate2></exchange_rate2>
+				<debit_quantity></debit_quantity>
+				<primary_debit_amount></primary_debit_amount>
+				<secondary_debit_amount></secondary_debit_amount>
+				<natural_debit_currency></natural_debit_currency>
+				<credit_quantity></credit_quantity>
+				<primary_credit_amount></primary_credit_amount>
+				<secondary_credit_amount></secondary_credit_amount>
+				<natural_credit_currency></natural_credit_currency>
+				<bill_type></bill_type>
+				<bill_id></bill_id>
+				<bill_date></bill_date>
+				<auxiliary_accounting>
+					<item name="dept_id"></item>
+					<item name="personnel_id"></item>
+					<item name="cust_id"></item>
+					<item name="supplier_id"></item>
+					<item name="item_id"></item>
+					<item name="item_class"></item>
+					<item name="operator"></item>
+					<item name="self_define1"></item>
+					<item name="self_define2"></item>
+					<item name="self_define3"></item>
+					<item name="self_define4"></item>
+					<item name="self_define5"></item>
+					<item name="self_define6"></item>
+					<item name="self_define7"></item>
+					<item name="self_define8"></item>
+					<item name="self_define9"></item>
+					<item name="self_define10"></item>
+					<item name="self_define11"></item>
+					<item name="self_define12"></item>
+					<item name="self_define13"></item>
+					<item name="self_define14"></item>
+					<item name="self_define15"></item>
+					<item name="self_define16"></item>
+				</auxiliary_accounting>
+				<detail>
+					<cash_flow_statement>
+					</cash_flow_statement>
+					<code_remark_statement>
+					</code_remark_statement>
+				</detail>
+			</entry>			
+		</voucher_body>
+	</voucher>
+</ufinterface>
